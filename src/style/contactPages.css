@@ -1,0 +1,21 @@
+.contact-page {
+    background-color: #f9f9f9;
+}
+
+.contact-box {
+    background: #fff;
+}
+
+.contact-box .form-label {
+    font-weight: bold;
+}
+
+.social-icons a {
+    font-size: 1.5rem;
+    color: #007bff;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #0056b3;
+}
