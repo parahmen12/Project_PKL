@@ -30,7 +30,7 @@ const Header = () => {
               <Link className="nav-link" to="/servicesPages">Services</Link>
             </li>
             <li className="nav-item">
-              <Link to="/workshop" className="btn btn-info">Workshop</Link>
+              <Link to="https://www.smartsystem.id/" className="btn btn-info">Workshop</Link>
             </li>
           </ul>
         </div>
