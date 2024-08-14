@@ -64,13 +64,13 @@ const ServicesPage = () => {
                 <h4>Contact Us</h4>
                 <div className="d-flex justify-content-center">
                     <div className="mx-4 text-center">
-                        <a href="https://instagram.com/yourprofile" target="_blank" rel="noopener noreferrer">
+                        <a href="https://instagram.com/rzvnptr" target="_blank" rel="noopener noreferrer">
                             <FaInstagram size={50} className="text-primary mb-2" />
                             <p>Instagram</p>
                         </a>
                     </div>
                     <div className="mx-4 text-center">
-                        <a href="https://wa.me/yourwhatsappnumber" target="_blank" rel="noopener noreferrer">
+                        <a href="https://wa.me/081902679231" target="_blank" rel="noopener noreferrer">
                             <FaWhatsapp size={50} className="text-success mb-2" />
                             <p>WhatsApp</p>
                         </a>
