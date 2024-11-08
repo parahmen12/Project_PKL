@@ -1,0 +1,142 @@
+.projects {
+  padding: 60px 0;
+  background-color: #f9f9f9;
+}
+
+.projects h2 {
+  padding-bottom: 20px ;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.projects .carousel {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.project-item {
+  margin: 0 auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-item:hover {
+  transform: scale(1.03);
+}
+
+.project-item img {
+  max-height: 180px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.project-item .card-body {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 0.9rem;
+}
+
+.btn {
+  margin-top: auto;
+}
+
+.carousel-control-prev-icon, 
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.carousel-control-prev-icon::before, 
+.carousel-control-next-icon::before {
+  content: '';
+}
+
+.carousel-control-prev::after,
+.carousel-control-next::after {
+  content: '\f104';
+  font-family: 'FontAwesome';
+  font-size: 20px;
+  color: white;
+}
+
+.carousel-control-prev::after {
+  margin-left: 10px;
+}
+
+.carousel-control-next::after {
+  margin-right: 10px;
+}
+
+.carousel-inner {
+  padding: 0 15px;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1050;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  max-width: 600px;
+  width: 90%;
+  border-radius: 8px;
+  text-align: center;
+  transform: scale(0.9);
+  animation: zoomIn 0.3s forwards;
+  position: relative;
+}
+
+.modal-img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+@keyframes zoomIn {
+  from {
+    transform: scale(0.9);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+

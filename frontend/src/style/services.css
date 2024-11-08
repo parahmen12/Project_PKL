@@ -1,0 +1,37 @@
+.services {
+  padding: 120px 20px; /* Tambahkan padding-top lebih besar agar tidak tertutup header */
+  background-color: #f9f9f9;
+}
+
+.services h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.services p {
+  font-size: 1.2rem;
+}
+
+/* SECTION LOCATION */
+.location-section {
+  background-color: #f9f9f9;
+  padding: 120px 20px; /* Tambahkan padding-top lebih besar agar tidak tertutup header */
+}
+
+.location-section .card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: none;
+}
+
+.location-section .card-title {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.location-section .card-text {
+  font-size: 16px;
+}
+
+.map-container {
+  border-radius: 10px;
+}

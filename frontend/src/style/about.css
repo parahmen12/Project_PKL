@@ -1,0 +1,43 @@
+.about {
+  padding: 60px 0;
+  text-align: center;
+  background-color: #1900fc;
+}
+
+.about h2 {
+  color: #f9f9f9;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.contact-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.contact-icon {
+  text-decoration: none;
+  color: #f9f9f9;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.contact-icon svg {
+  display: block;
+  margin: 0 auto;
+  color: #ffa200;
+  transition: transform 0.3s ease;
+}
+
+.contact-icon p {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  color: #f9f9f9;
+}
+
+.contact-icon:hover {
+  transform: scale(1.1);
+}

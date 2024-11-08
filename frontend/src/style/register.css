@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap'); /* Menggunakan font Poppins */
+
+.register-container {
+    display: flex;
+    height: 100vh;
+    margin: 0;
+}
+
+.register-form {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(145deg, #e0e0e0, #ffffff); /* Gradient background */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    width: 60%;
+}
+
+.register-form h2 {
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    color: #333;
+    font-weight: 600;
+}
+
+.form-group {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 1rem;
+    transition: all 0.3s ease; /* Tambahkan transisi */
+}
+
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.25); /* Highlight saat fokus */
+}
+
+.invalid-feedback {
+    color: red;
+    font-size: 0.875rem;
+}
+
+
+
+.btn-block {
+    width: 100%;
+}
+
+.login-link {
+    margin-top: 15px;
+    font-size: 0.875rem;
+}
+
+.login-link a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+}
+
+.register-image {
+    flex: 1;
+    background: url("https://www.itb.ac.id/files/dokumentasi/1620036147-IMG_0011-01.jpeg") no-repeat center center;
+    background-size: cover;
+    border-radius: 12px 0 0 12px;
+}

@@ -1,0 +1,95 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  background-color: #f9f9f9;
+  font-family: 'Poppins', sans-serif;
+}
+
+.header .logo {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #333333;
+}
+
+.header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.header nav ul li a {
+  color: #333;
+  text-decoration: none;
+}
+
+.header nav ul li a:hover {
+  color: #555555;
+}
+
+.navbar-nav .nav-item {
+  margin-right: 15px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+
+.navbar-nav .nav-link {
+  transition: color 0.3s ease, transform 0.3s ease;
+  color: #413e3e;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #0c00e9;
+  transform: scale(1.05);
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+.btn-info {
+  margin-right: 15px;
+}
+
+.button-logout {
+  cursor: pointer;
+  color: #333; 
+  text-decoration: none;
+  padding: 7px 10px;
+  border: none;
+  background: none; 
+  border-radius: 20px;   
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.button-logout:hover {
+  color: white; 
+  background-color: red; 
+}
+
+.workshop-link {
+  cursor: pointer;
+  color: #333; 
+  text-decoration: none;
+  padding: 10px 10px;
+  border: none;
+  background: none; 
+ 
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.workshop-link:hover {
+  color: rgb(0, 0, 0); 
+  background-color: rgb(0, 251, 255); 
+}
+
+

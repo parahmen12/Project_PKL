@@ -1,0 +1,114 @@
+/* Warna latar belakang halaman */
+body {
+  background-color: #f9f9f9;
+}
+
+/* Styling untuk container card di ServicesPage */
+.services-page {
+  padding-top: 100px;
+  background-color: #f9f9f9;
+}
+
+/* Styling untuk card */
+.services-page .card {
+  margin-top: 30px;
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  background: #fff;
+}
+
+/* Efek hover untuk card */
+.services-page .card:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling untuk gambar card */
+.services-page .card-img-top {
+  border-bottom: 2px solid #007bff;
+  height: 250px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+/* Efek hover untuk gambar card */
+.services-page .card:hover .card-img-top {
+  transform: scale(1.1);
+}
+
+/* Styling untuk teks di dalam card */
+.services-page .card-title {
+  font-size: 20px;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.services-page .card-text {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Tombol di dalam card */
+.services-page .btn-primary {
+  background-color: #007bff;
+  border: none;
+  border-radius: 50px;
+  padding: 10px 20px;
+  font-size: 14px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Efek hover pada tombol */
+.services-page .btn-primary:hover {
+  background-color: #0056b3;
+  transform: translateY(-3px);
+}
+
+/* Styling untuk bagian Contact Us */
+.text-contact {
+  padding-top: 100px;
+  font-size: 24px;
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.text-center a {
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.text-center a:hover {
+  transform: scale(1.2);
+  color: #007bff;
+}
+
+.text-center a p {
+  font-size: 16px;
+  color: #333;
+}
+
+.text-center a:hover p {
+  color: #007bff;
+}
+
+.text-primary {
+  color: #C13584 !important;
+}
+
+.text-success {
+  color: #25D366 !important;
+}
+
+.text-center a:hover .text-primary {
+  color: #d048a1 !important;
+}
+
+.text-center a:hover .text-success {
+  color: #34eb83 !important;
+}
