@@ -100,7 +100,11 @@ const ServicesPage = () => {
                         </a>
                     </div>
                     <div className="mx-4 text-center">
+<<<<<<< HEAD:frontend/src/pages/servicesPages.jsx
                         <a href="https://wa.me/+6281902679231" target="_blank" rel="noopener noreferrer">
+=======
+                        <a href="https://wa.me/081902679231" target="_blank" rel="noopener noreferrer">
+>>>>>>> 8efb7a116007c68abd54e098a3565f51f42bf734:src/pages/servicesPages.jsx
                             <FaWhatsapp size={50} className="text-success mb-2" />
                             <p>WhatsApp</p>
                         </a>

@@ -1,0 +1,36 @@
+.services {
+  padding: 60px 0;
+}
+
+.services h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.services p {
+  font-size: 1.2rem;
+}
+
+.location-section {
+  background-color: #f9f9f9;
+  padding: 60px 0;
+}
+
+.location-section .card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: none;
+}
+
+.location-section .card-title {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.location-section .card-text {
+    font-size: 16px;
+}
+
+.map-container {
+    border-radius: 10px;
+    overflow: hidden;
+}
