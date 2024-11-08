@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import { FaInstagram, FaWhatsapp } from 'react-icons/fa';
-import '../style/servicesPages.css'; // Pastikan path CSS benar
+import '../style/servicesPages.css';
 
 const ServicesPage = () => {
     useEffect(() => {
